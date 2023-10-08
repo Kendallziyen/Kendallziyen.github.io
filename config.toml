@@ -1,0 +1,78 @@
+baseurl = "https://kendallziyen.github.io" 
+#設定主頁 url
+
+languageCode = "zh-tw" 
+# 設定 Blog 語言
+
+title = "Ziyen & Kendall" 
+#設定網站標題
+
+buildDrafts = false 
+#是否產生草稿(建議選否)
+
+theme = "PaperMod"
+#主題
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 10
+#標籤頁面
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+#類別頁面
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+#歷程頁面
+
+[params.profileMode]
+enabled = true
+title = "Ziyen(Kendall)"
+subtitle = "Currently learning Java"
+imageUrl = "image/Ziyen.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my profile"
+#基本內容
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+#快捷按鈕
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+#快捷按鈕
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Kendallziyen"
+#社群按鈕
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ziyenhuang-8483a6275/"
+#社群按鈕
+
+[params] 
+ShowBreadCrumbs = true    
+#展示文章所在目錄
+ShowReadingTime = true    
+#展示閱讀時間
+ShowShareButtons = true    
+#展示分享按鈕
+ShowPostNavLinks = true    
+#本地其他文章連結
+
+[params.cover]
+linkFullImages = true    
+#點擊圖片後以全螢幕檢視
