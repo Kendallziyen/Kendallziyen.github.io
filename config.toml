@@ -70,7 +70,7 @@ ShowReadingTime = true
 #展示閱讀時間
 ShowShareButtons = true    
 #展示分享按鈕
-ShowPostNavLinks = true    
+ShowPostNavLinks = false    
 #本地其他文章連結
 
 [params.cover]
